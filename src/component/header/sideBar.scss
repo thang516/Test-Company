@@ -1,0 +1,85 @@
+
+.swiss-trip {
+  .card-img {
+    img {
+      height: auto;
+      width: 100%;
+      padding: 10px 2px;
+      position: relative;
+    }
+
+    .tour-price {
+      position: absolute;
+      bottom: 80px;
+      left: 2px;
+    }
+  }
+
+  .swiss-body {
+    //position: relative;
+    .swiss-title {
+      position: absolute;
+      top: 506px;
+      left: 20px;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .swiss-star {
+      position: absolute;
+      top: 538px;
+      left: 18px;
+    }
+  }
+
+}
+
+
+.lake-of {
+  .card-img {
+    img {
+      height: auto;
+      width: 100%;
+    }
+
+
+    .tour-price {
+      position: absolute;
+      bottom: 75px;
+      left: 2px;
+    }
+  }
+
+  .lake-body {
+    .lake-title {
+      position: absolute;
+      top: 687px;
+      right: 67px;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+
+    }
+    .lake-star {
+      position: absolute;
+      top: 722px;
+      right: 152px;
+    }
+  }
+
+}
+
+.icon-socials {
+  padding: 40px 15px;
+  gap: 14px;
+  display: flex;
+}
+.select-menu{
+  font-weight: bold;
+  font-size: 25px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

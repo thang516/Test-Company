@@ -1,11 +1,8 @@
 import "./HomePage.scss"
 import {CardContent} from "../popular_destinations/Popular";
-import React, {useState} from "react";
-import ReactPlayer from 'react-player';
 import {Header} from "../header/Header";
 import {Footer} from "../footer/Footer";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-
 const popularContent = [
     {
 
@@ -205,7 +202,7 @@ export function HomePage() {
                                        playsInline={true}
                                        preload="metadata" width={"100%"}>
                                     <source
-                                        src="public\Spectacular Norway - from the air.mp4"
+                                        src="Spectacular Norway - from the air.mp4"
                                         type="video/mp4"
                                     />
                                 </video>
@@ -483,8 +480,7 @@ export function HomePage() {
                                     ethnic fingerstache...
                                 </p>
                                 <div className="a-css">
-                                    <a href="https://themes.themegoods.com/grandtour/demo/my-memorial-day-tribute-to-someone-who-told-me-to-travel/"
-                                    >Read More ></a>
+                                    <a href="https://themes.themegoods.com/grandtour/demo/my-memorial-day-tribute-to-someone-who-told-me-to-travel/">Read More &gt; </a>
                                 </div>
 
                             </div>
@@ -511,7 +507,7 @@ export function HomePage() {
                                 </p>
                                 <div className="a-css">
                                     <a href="https://themes.themegoods.com/grandtour/demo/7-tips-for-nomads-on-a-budget/"
-                                    >Read More ></a>
+                                    >Read More &gt; </a>
                                 </div>
 
                             </div>
@@ -535,7 +531,7 @@ export function HomePage() {
                                 </p>
                                 <div className="a-css">
                                     <a href="https://themes.themegoods.com/grandtour/demo/taking-a-travel-blog-victory-lap/"
-                                    >Read More ></a>
+                                    >Read More &gt; </a>
                                 </div>
 
                             </div>
